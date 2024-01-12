@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+  
+
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <!-- <img src="images/logo.png" class="logo" /> -->
+                    <h1><span style="color:#ff004f;font-size: 35px;">A</span>kanksha</h1>
+                    <ul id="sideMenu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closeMenu()"></i>
+                    </ul>
+<i class="fas fa-bars" onclick="openMenu()"></i>
+
+                </nav>
+                <div class="header-text">
+                    <p>Front End Developer</p>
+                    <h1>Hi, I'am <span>Akanksha</span><br>Kamble from Mumbai</h1>
+                </div>
+
+            </div>
+        </div>
+  
+
+    <!-- about start -->
+
+
+   
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/akanksha5.jpeg" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        Passionate Front-End Developer with 3 Years of Experience track record in developing and coordinating web-based software Industry. Proﬁcient in JavaScript, React, jquery, HTML5, CSS3, hooks, kendoUI, Responsive changes .
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+    
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web app interface
+                            </li>
+                            <li><span>web development</span><br>web development web app interface
+                            </li>
+                            <li><span>App development</span><br>App development app interface
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiance"  >
+                        <ul>
+                            <li><span>Parascadd</span><br>Designing web app interface
+                            </li>
+                            <li><span>S Naidu Tech</span><br>web development web app interface
+                            </li>
+                           
+                        </ul>
+
+                
+                    </div>
+                    <div class="tab-contents " id="education">
+                        <ul>
+                            <li><span>Btech</span><br>Btech in Information Technology
+                            </li>
+                            <li><span>Diploma</span><br>Diploma in Information technology
+                            </li>
+                            <li><span>SSC</span><br>Maharashtra state Board
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+
+    </div>
+ <!-- about End -->
+
+ <!-- services start -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+<div class="services-list">
+    <div>
+        <i class="fas fa-code"></i>
+        <h2>web design</h2>
+        <p>
+            Create Web Pages using html5, javascript, react js, jquery, bootstrap
+          Created interactive graphics with React.js resulting in improved user experience
+   Maintained 98.6% average client satisfaction score across all projects, well above industry average
+        </p>
+        <a href="#">Learn More</a>
+    </div>
+    <div>
+        <i class="fas fa-crop-alt"></i>
+        <h2>web development</h2>
+        <p>
+            user Friendly projects create. It generate Magzine for user like read it friendly everyday anywhere, etc. Application based on Javascript, Jquery, html5, css3, wordpress.
+            •      Implemented code standards that improved team's average productivity by 25%
+            •      Managed software development with JavaScript, and wordpress
+            •      Improved SEO performance of company websites by 35%
+        </p>
+        <a href="#">Learn More</a>
+    </div>
+
+    <div>
+        <i class="fab fa-app-store"></i>
+        <h2>App design</h2>
+        <p>
+            User friendly Dashboard for overall projects. It generate reports for project like schedule and cost performance, Risk etc. Application based on javascript,  jquery, bootstrap, kendoUI,amchart,responsive design
+        </p>
+        <a href="#">Learn More</a>
+    </div>
+</div>
+
+    </div>
+</div>
+
+ <!-- services end -->
+
+<!-- portfolio start  -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/movieReview.png"/>
+                <div class="layer">
+                    <h3>Social media app</h3>
+                    <p>the app connet you to the taln download it from play store</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ecommerce.png"/>
+                <div class="layer">
+                    <h3>Social media app</h3>
+                    <p>the app connet you to the taln download it from play store</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/recordKeeping.png"/>
+                <div class="layer">
+                    <h3>Social media app</h3>
+                    <p>the app connet you to the taln download it from play store</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- portfolio end -->
+
+<!-- contact -->
+<div id="contact" class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>akankshakamble9377@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>9702709477</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+
+                <a href="images/AkankshaKambleResume.pdf"  download class="btn btn-2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="your name" required />
+                    <input type="email" name="email" placeholder="enter email" required />
+                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <button type="submit" class="btn btn-2">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<div class="copyright">
+    <p>copyright @Akanksha made with <i class="fas fa-heart"></i> by knowledge.</p>
+</div>
+
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sideMenu")
+
+    function openMenu(){
+        sidemenu.style.right="0"
+    }
+
+    function closeMenu(){
+        sidemenu.style.right="-200px"
+    }
+</script>
+
+</body>
+
+</html>
